@@ -48,3 +48,7 @@ To test out the behavior, open 3 terminals:
 This is a very basic example and proof that path aliases work as intended with a few additional tools. However, handling path aliases can vary significantly when using other frameworks like Express, NestJS, or integrating with different build tools, each of which may resolve paths or manage dependencies differently.
 
 Frameworks like Express or NestJS, and tools like Babel, Rollup, or different configurations of TypeScript and Webpack, might have their own mechanisms for handling module resolution, aliasing, and compiling. This can lead to discrepancies in how paths are managed across different environments or build processes, necessitating specific configurations or plugins to align with the expected behavior in each context.
+
+## License
+
+[FSL-1.1-Apache-2.0](./LICENSE.md)
